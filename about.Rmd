@@ -1,0 +1,16 @@
+---
+title: "About"
+---
+
+Ph.D. student in Linguistics at the University of Freiburg's [English Department](https://www.anglistik.uni-freiburg.de) doing quantitative psycholinguistic research on individual differences in language processing. Read more about my project [here](http://www.hpsl-linguistics.org/index.php?id=162&projekt=355).
+
+Interests:
+* Statistical data analysis with R 
+* Stats and programming in Python 
+* Open, reproducible science
+
+Member of the [Hermann Paul School of Linguistics](http://www.hpsl-linguistics.org).
+
+Read more about my work: ["Effects of task and corpus-derived association scores on the online processing of collocations""](https://www.degruyter.com/view/j/cllt.ahead-of-print/cllt-2018-0030/cllt-2018-0030.xml)
+
+Also in Freiburg? Stop by our [Statistics Study Group for Linguists](http://www.hpsl-linguistics.org/index.php?id=1580)!
