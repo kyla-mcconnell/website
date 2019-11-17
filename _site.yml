@@ -4,6 +4,11 @@ output_dir: "docs"
 output:  
   html_document:  
     self_contained: no  
-    theme: flatly  
+    theme: paper  
 navbar:  
   title: "Kyla McConnell" 
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Resources"
+      href: resources.html
