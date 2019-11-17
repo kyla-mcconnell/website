@@ -1,4 +1,4 @@
-name: "webpage"  
+name: "Kyla McConnell"  
 author: "Kyla McConnell"  
 output_dir: "docs"  
 output:  
@@ -6,4 +6,4 @@ output:
     self_contained: no  
     theme: flatly  
 navbar:  
-  title: "Kyla McConnell"  
+  title: "Kyla McConnell" 
