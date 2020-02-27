@@ -6,17 +6,17 @@ Some of my favorite resources.
 
 ###Statistics with R
 
-- [R for Data Science, Hadley Wickham & Garrett Grolemund](https://r4ds.had.co.nz)
+[R for Data Science, Hadley Wickham & Garrett Grolemund](https://r4ds.had.co.nz)
 
-- [Discovering Statistics with R, Andy Field](https://www.amazon.com/Discovering-Statistics-Using-Andy-Field/dp/1446200469/ref=sr_1_1?crid=CKZWXG1OAWRX&keywords=discovering+statistics+using+r&qid=1574011921&sprefix=discovering+stat%2Caps%2C230&sr=8-1)
+[Discovering Statistics with R, Andy Field](https://www.amazon.com/Discovering-Statistics-Using-Andy-Field/dp/1446200469/ref=sr_1_1?crid=CKZWXG1OAWRX&keywords=discovering+statistics+using+r&qid=1574011921&sprefix=discovering+stat%2Caps%2C230&sr=8-1)
 
-- [Data Skills tutorial, Dale Barr and Lisa DeBruine](https://gupsych.github.io/data_skills/01_intro.html)
+[Data Skills tutorial, Dale Barr and Lisa DeBruine](https://gupsych.github.io/data_skills/01_intro.html)
 
-- [Statistics for Linguists, Bodo Winter](https://www.crcpress.com/Statistics-for-Linguists-An-Introduction-Using-R/Winter/p/book/9781138056091)
+[Statistics for Linguists, Bodo Winter](https://www.crcpress.com/Statistics-for-Linguists-An-Introduction-Using-R/Winter/p/book/9781138056091)
 
-- [How to do Linguistics with R, Natalia Levshina](https://benjamins.com/sites/z.195/)
+[How to do Linguistics with R, Natalia Levshina](https://benjamins.com/sites/z.195/)
 
-- [Improving your Statistical Inferences, Daniel Lakens on Coursera](https://www.coursera.org/learn/statistical-inferences)
+[Improving your Statistical Inferences, Daniel Lakens on Coursera](https://www.coursera.org/learn/statistical-inferences)
 
 More coming soon!
 
