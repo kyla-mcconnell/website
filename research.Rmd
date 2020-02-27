@@ -4,6 +4,8 @@
 
 The following summary is based on the paper [Effects of task and corpus-derived association scores on the online processing of collocations](https://www.degruyter.com/view/j/cllt.ahead-of-print/cllt-2018-0030/cllt-2018-0030.xml). The paper and all research was done together with [Alice Blumenthal-Dramé](https://www.anglistik.uni-freiburg.de/seminar/mitarbeiter-und-sprechstunden/blumenthal). You can see the [poster version here](https://www.researchgate.net/profile/Kyla_Mcconnell2/publication/335991813_Can_corpus-derived_collocation_measures_reflect_expectations_in_language_processing/links/5d89d584458515cbd1be541c/Can-corpus-derived-collocation-measures-reflect-expectations-in-language-processing.pdf). What follows is a summary for all audiences.
 
+
+
 ## What's so interesting about 'vast majority'?
 Have you ever noticed that some words "feel right" together? They just seem to fit or "belong" with one another. For example, we say "vast majority", not "mighty majority" or "colossal majority". 
 
@@ -27,6 +29,8 @@ So we started with two questions:
 1. Do language users keep track of statistics like how often two words are used together?
 2. Do language users think on the level of "words" or do commonly used words tend to 'fuse' into larger units in their minds?
 
+
+
 ## Testing these questions
 
 If words are easier to understand, we tend to read them faster. For this reason, we can tell which words are easier to understand by recording how long it takes them to read them. 
@@ -40,6 +44,8 @@ To easily time reading times by word, we had participants read sentences one wor
 ![](img_research/spr3.png)
 
 We started sentences very neutrally so that readers couldn't guess what was coming up. Then we included the words 'vast majority' (and 91 other adjective-noun pairs of a similar type) and recorded the reading time to the second word. We wanted to see if reading a word like 'vast' then reading a strongly associated word like 'majority' directly after would speed up reading -- showing that it was easier to read.
+
+
 
 ## What we found
 
@@ -55,6 +61,8 @@ The second measure showed that the words are also accessed as one unit. So it se
 
 ![](img_research/vast_majority2.png)
 
+(Coming soon -- full stats)
+
 ## But wait, there's more -- task effects
 
 While participants read sentences, we had them answer questions to make sure they were reading carefully and understanding what they read. This is a standard part of this type of experiment. However, we thought that it might be interesting to see what effect this could have. So we tried two different types of questions. 
@@ -63,6 +71,17 @@ While participants read sentences, we had them answer questions to make sure the
 
 We found that having to answer typed questions seemed to lead to people reading more slowly. When people read slower, they seem to have access to statistical information in language for longer... it even lasts over the next couple words they read.
 
-(Graphs coming soon)
+![](img_research/task_graph.png)
+
+In this graph, you can see that the multiple choice section has overall faster reading times. Also, you see that more common chunks are read more quickly. However, the pattern is a little different in the two parts.
+
+In the multiple-choice section, which is read faster, statistical information (like the commonness of chunks) has a big effect on the second word in the pair, but not on the following words. In the slower section, the typed section, the effect last longer.
+
+We believe this if language is processed more quickly, the statistical information is lost more quickly, becuase the listener has to deal with all the incoming information. Thus, not only are multiple strategies at play, but speed seems to also have an effect.
+
+## Recap
+We asked the question of whether language users take note of statistics such as how often words are used together and if they use these to understand language more quickly and efficiently. We found that this does seem to be the case, though not in a predictive way but rather to assist integration after both words have been read. Further, we found support that commonly co-occuring words may be accessed as larger "chunks". So it seems that comprehenders use both stats at the word and at the chunk level at the same time. 
+
+Additionally, we asked if a small task difference could change reading strategy. We found that it can have an effect -- specifically, tasks that cause faster reading may mean that statistical information about language is available for a shorter amount of time, compared to when reading slower. 
 
 </center></font>

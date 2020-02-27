@@ -4,7 +4,7 @@
 
 Some of my favorite resources.
 
-##Statistics with R
+###Statistics with R
 
 - [R for Data Science, Hadley Wickham & Garrett Grolemund](https://r4ds.had.co.nz)
 
