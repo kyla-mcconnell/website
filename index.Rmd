@@ -6,7 +6,7 @@
 
 # Kyla McConnell
 
-Ph.D. student in Linguistics at the University of Freiburg's [English Department](https://www.anglistik.uni-freiburg.de) doing quantitative psycholinguistic research on [individual differences in language processing](http://www.hpsl-linguistics.org/index.php?id=162&projekt=355).
+Ph.D. student in Linguistics at the University of Freiburg's [English Department](https://www.anglistik.uni-freiburg.de) doing quantitative psycholinguistic research on [individual differences in language processing](http://www.hpsl-linguistics.org/index.php?id=162&projekt=355) under the guidance and support of [Alice Blumenthal-Dramé](https://www.anglistik.uni-freiburg.de/seminar/mitarbeiter-und-sprechstunden/blumenthal).
 
 Interests: Statistical data analysis with R, data science with Python, open & reproducible science
 

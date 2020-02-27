@@ -1,14 +1,20 @@
-name: "Kyla McConnell"  
-author: "Kyla McConnell"  
-output_dir: "docs"  
-output:  
-  html_document:  
-    self_contained: no  
-    theme: paper  
-navbar:  
-  title: "Kyla McConnell" 
+name: "Kyla McConnell"
+author: "Kyla McConnell"
+output_dir: "docs"
+output:
+  html_document:
+    self_contained: no
+    theme: paper
+navbar:
+  title: "Kyla McConnell"
   left:
     - text: "Home"
       href: index.html
+    - text: "Research"
+      href: research.html
+    - text: "Stats"
+      href: stats_group.html
+    - text: "Side Projects"
+      href: side_projects.html
     - text: "Resources"
       href: resources.html
