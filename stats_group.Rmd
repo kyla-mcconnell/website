@@ -1,4 +1,4 @@
-<center><font size = 4>
+<center><font size = 3>
 
 #Statistics Group for Linguists, Freiburg
 
