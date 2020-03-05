@@ -12,9 +12,7 @@ We're a peer support group consisting of early career researchers and advanced g
 As of February 2020, we’ve covered fundamental statistical concepts like correlation, regression, t-tests, and ANOVAs, as well as data wrangling and visualization. Looking forward, our upcoming topics include mixed effects modeling, best practices in fitting linear and non-linear models and advanced methods like decision trees, random forests, principle component analysis (PCA), cluster analysis and neural networks. 
 
 
-<center>
 ##Resources
-</center>
 Check out my [Github repository](https://github.com/kyla-mcconnell/R_stats) for our current collection of resources. They consist of both exercises and notes, many of which draw heavily from our favorite statistical resources:
 
 [R for Data Science, Hadley Wickham & Garrett Grolemund](https://r4ds.had.co.nz)
