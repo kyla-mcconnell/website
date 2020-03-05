@@ -1,5 +1,8 @@
 <center><font size = 2>
+
 ## What's so interesting about 'vast majority'?
+</center>
+
 Have you ever noticed that some words "feel right" together? They just seem to fit or "belong" with one another. For example, we say "vast majority", not "mighty majority" or "colossal majority". 
 
 There are huge collections of natural language, called corpora, that have millions of words collected from books, newspaper articles, and even television broadcasts. We can use these to calculate how often two words (like "vast" and "majority") are used together, compared to other alternatives.
@@ -77,4 +80,4 @@ We asked the question of whether language users take note of statistics such as 
 
 Additionally, we asked if a small task difference could change reading strategy. We found that it can have an effect -- specifically, tasks that cause faster reading may mean that statistical information about language is available for a shorter amount of time, compared to when reading slower. 
 
-</center></font>
+</font>

@@ -1,8 +1,7 @@
 <center><font size = 4>
 
 #Resources
-
-Some of my favorite resources.
+</center>
 
 ###Statistics with R
 
