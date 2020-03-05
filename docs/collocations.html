@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title></title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/paper.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 64px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+.section h2 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+.section h3 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+.section h4 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+.section h5 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+.section h6 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Kyla McConnell</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li>
+  <a href="research.html">Research</a>
+</li>
+<li>
+  <a href="stats_group.html">Stats</a>
+</li>
+<li>
+  <a href="side_projects.html">Side Projects</a>
+</li>
+<li>
+  <a href="resources.html">Resources</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+
+</div>
+
+
+<center>
+<p><font size = 2> ## What’s so interesting about ‘vast majority’? Have you ever noticed that some words “feel right” together? They just seem to fit or “belong” with one another. For example, we say “vast majority”, not “mighty majority” or “colossal majority”.</p>
+<p>There are huge collections of natural language, called corpora, that have millions of words collected from books, newspaper articles, and even television broadcasts. We can use these to calculate how often two words (like “vast” and “majority”) are used together, compared to other alternatives.</p>
+<p>We can also rank pairs and say that certain pairs are more strongly attracted to each other than others. In the field of corpus linguistics, many measures have been developed that calculate this “attraction”.</p>
+<div class="figure">
+<img src="img_research/colloc_scale.png" />
+
+</div>
+<p>More and more research claims that speakers may be able to keep track of these sorts of statistics about patterns in language use. It may be a big part of how we understand language so effortlessly. For example, if you hear the word “vast”, you may be able to anticipate “majority” – if you then hear “majority”, you can recognize it easier and faster.</p>
+<div class="figure">
+<img src="img_research/vast_majority.png" />
+
+</div>
+<p>However, there are a couple of problems with the measures we have. First of all, they were never developed to tell us about the human mind – they were developed to tell us about big collections of text samples. The texts included in corpora may not be the same as the language we hear everyday. Also, we read left to right, so words that we haven’t seen yet can’t affect our comprehension. The measures don’t usually take this into consideration.</p>
+<p>A parallel stream of research suggests that we might not have to think of the two words as separate things at all. It proposes that the mind doesn’t work on the level of “words”. Instead, the mind will “chunk” words together and see them as one unit, especially if they show up together a lot. This explains why we say “gonna” instead of “going to” – it’s become one chunk! Maybe the same thing happens in our mind for popular combinations of words.</p>
+<div class="figure">
+<img src="img_research/vast_majority2.png" />
+
+</div>
+<p>So we started with two questions: 1. Do language users keep track of statistical information, like how often two words are used together? 2. Do language users think on the level of “words” or do commonly used words tend to fuse into larger “chunks” in their minds?</p>
+<div id="testing-these-questions" class="section level2">
+<h2>Testing these questions</h2>
+<p>If words are easier to understand, we tend to read them faster. For this reason, we can tell which words are easier to understand by recording how long it takes someone to read them.</p>
+<p>To easily collecting reading times for single words in context, we had participants read sentences one word at a time. Every time they pressed the spacebar, they could read the next word. 110 English native speakers participated and they each read 248 sentences.</p>
+<div class="figure">
+<img src="img_research/spr1.png" />
+
+</div>
+<div class="figure">
+<img src="img_research/spr2.png" />
+
+</div>
+<div class="figure">
+<img src="img_research/spr3.png" />
+
+</div>
+<p>We started sentences very neutrally so that readers couldn’t guess what was coming up. Then we included the words ‘vast majority’ (and 91 other adjective-noun pairs of a similar type) and recorded the reading time to the second word. We wanted to see if reading a word like ‘vast’ then reading a strongly associated word like ‘majority’ would speed up reading of this word – showing that it was easier to read.</p>
+</div>
+<div id="what-we-found" class="section level2">
+<h2>What we found</h2>
+<p>Using a statistical model, we removed the influence of word length (we read longer words slower, of course!) and frequency (we read uncommon words slower as well!). We also accounted for the fact that participants may respond differently; some might read faster than others, etc.</p>
+<p>Then, we tested to see which measures were the best fit to the pattern of reading times. We were surprised to find that some were very unreliable, although they had are used in different research communities.</p>
+<p>However, two measures of the nine that we tested seemed to fit the data. Interestingly, one of these showed that the second word affects the first word, exactly in the opposite direction than what we assumed. This suggests that our understanding isn’t as predictive as we thought, at least in this case. It may be that expectable words are easier to integrate into the unfolding message AFTER you’ve read them.</p>
+<div class="figure">
+<img src="img_research/vast_majority3.png" />
+
+</div>
+<p>The second measure showed that the words are also accessed as one unit. So it seems like language comprehenders use multiple different strategies even at the same time!</p>
+<div class="figure">
+<img src="img_research/vast_majority2.png" />
+
+</div>
+<p>(Coming soon – full stats)</p>
+</div>
+<div id="but-wait-theres-more-task-effects" class="section level2">
+<h2>But wait, there’s more – task effects</h2>
+<p>While participants read sentences, we had them answer questions to make sure they were reading carefully and understanding what they read. This is a standard part of this type of experiment. However, we thought that it might be interesting to see what effect this could have. So we tried two different types of questions.</p>
+<div class="figure">
+<img src="img_research/tasks.png" />
+
+</div>
+<p>We found that having to answer typed questions seemed to lead to people reading more slowly. When people read slower, they seem to have access to statistical information in language for longer… it even lasts over the next couple words they read.</p>
+<div class="figure">
+<img src="img_research/task_graph.png" />
+
+</div>
+<p>In this graph, you can see that the multiple choice section has overall faster reading times. Also, you see that more common chunks are read more quickly. However, the pattern is a little different in the two parts.</p>
+<p>In the multiple-choice section, which is read faster, statistical information (like the commonness of chunks) has a big effect on the second word in the pair, but not on the following words. In the slower section, the typed section, the effect last longer.</p>
+<p>We believe this if language is processed more quickly, the statistical information is lost more quickly, becuase the listener has to deal with all the incoming information. Thus, not only are multiple strategies at play, but speed seems to also have an effect.</p>
+</div>
+<div id="recap" class="section level2">
+<h2>Recap</h2>
+<p>We asked the question of whether language users take note of statistics such as how often words are used together and if they use these to understand language more quickly and efficiently. We found that this does seem to be the case, though not in a predictive way but rather to assist integration after both words have been read. Further, we found support that commonly co-occuring words may be accessed as larger “chunks”. So it seems that comprehenders use both stats at the word and at the chunk level at the same time.</p>
+<p>Additionally, we asked if a small task difference could change reading strategy. We found that it can have an effect – specifically, tasks that cause faster reading may mean that statistical information about language is available for a shorter amount of time, compared to when reading slower.</p>
+</center>
+<p></font></p>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
