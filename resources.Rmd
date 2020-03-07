@@ -1,7 +1,6 @@
-<center><font size = 4>
+<font size = 4>
 
 #Resources
-</center>
 
 ###Statistics with R
 

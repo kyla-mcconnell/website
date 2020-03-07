@@ -1,4 +1,4 @@
-<center><font size = 3>
+<font size = 3>
 
 #Side projects
 
@@ -16,4 +16,4 @@ Coming soon -- a project I worked on for an advisor
 
 
 
-</center></font>
+</font>
