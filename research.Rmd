@@ -1,5 +1,5 @@
 ---
-title: "Research - McConnell"
+title: "Research"
 ---
 
 <font size = 3>
