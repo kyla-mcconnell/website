@@ -1,4 +1,8 @@
-<title="Side Projects - McConnell"><font size = 3>
+---
+title: "Side Projects - McConnell"
+---
+
+<font size = 3>
 
 #Side projects
 

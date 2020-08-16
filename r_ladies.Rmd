@@ -1,4 +1,9 @@
-<title="R-Ladies Freiburg"><font size = 4><center>
+
+---
+title: "R-Ladies Freiburg"
+---
+
+<font size = 4><center>
 
 # R-Ladies Freiburg
 

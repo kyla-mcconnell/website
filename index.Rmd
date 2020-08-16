@@ -1,4 +1,8 @@
-<title="Kyla McConnell"><center><font size = 4>
+---
+title: "Kyla McConnell"
+---
+
+<center><font size = 4>
 <br>
 ![](kyla_circle.png)
 <br>

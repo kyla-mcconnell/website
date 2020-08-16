@@ -1,4 +1,8 @@
-<title="Stats Group Freiburg"><font size = 3>
+---
+title: "Stats Group Freiburg"
+---
+
+<font size = 3>
 
 #Statistics Group for Linguists, Freiburg
 
