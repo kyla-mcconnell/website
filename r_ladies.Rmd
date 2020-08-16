@@ -1,0 +1,12 @@
+<font size = 4>
+
+#R-Ladies
+Since May 2020, I have been a co-organizer of R-Ladies Freiburg, together with [Divya Seernani](https://twitter.com/dseernani) and [Elisa Schneider](https://twitter.com/Ichisa5).
+
+![](social_icons/r_ladies.png)
+
+We generally meet twice monthly: on the first Wednesday of each month for a two-hour tutorial Meetup and on the Tuesday two weeks later to code Tidy Tuesday together. 
+
+To find out about our upcoming events, check out our [Meetup page](https://www.meetup.com/rladies-freiburg/) and follow us on [Twitter](https://twitter.com/RLadiesFreiburg).
+
+</center></font>
