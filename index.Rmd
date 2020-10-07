@@ -8,9 +8,9 @@ title: "Kyla McConnell"
 <br>
 <br>
 
-Ph.D. student in Linguistics at the University of Freiburg's [English Department](https://www.anglistik.uni-freiburg.de) doing quantitative psycholinguistic research on [individual differences in language processing](https://www.hpsl-linguistics.org/user/648/) and how big data (corpus statistics) can inform our understanding of real-time language processing, under the guidance and support of [Alice Blumenthal-Dramé](http://portal.uni-freiburg.de/angl/seminar/mitarbeiter-und-sprechstunden/blumenthal).
+Ph.D. student in Linguistics at the University of Freiburg's [English Department](https://www.anglistik.uni-freiburg.de) doing quantitative psycholinguistic research on [individual differences in language processing](https://www.hpsl-linguistics.org/user/648/) and how big data can inform our understanding of real-time language processing.
 
-Interests: Statistical data analysis with R, data science and general programming with Python, open & reproducible science, big data & human language comprehension, statistical education in psychological sciences
+Interests: Statistical data analysis with R, data science and general programming with Python, open & reproducible science, big data & human language comprehension, statistical education especially for women and underrepresented groups.
 
 Member of the [Hermann Paul School of Linguistics](http://www.hpsl-linguistics.org).
 
