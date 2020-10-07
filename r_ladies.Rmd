@@ -1,6 +1,6 @@
 <font size = 4><center>
 
-![](social_icons/r_ladies.png){width=200px}
+![](social_icons/r_ladies.png){width=250px}
 
 R-Ladies is a worldwide initiative for women in statistics and programming. Since May 2020, I have been a co-organizer of the Freiburg branch, and I teach regular workshops for the group. Past topics I've taught include ["Text Processing with R"](https://www.meetup.com/rladies-freiburg/events/271449817/) and ["Sentiment Analysis with R"](https://www.meetup.com/rladies-freiburg/events/273638515/).
 
