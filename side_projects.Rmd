@@ -11,7 +11,7 @@ My past TidyTuesday results are on my [TidyTuesday Github repo](https://github.c
 
 A selected example deals with the level of vaccination in schools, from the February 26th, 2020 TidyTuesday.
 
-![](img_side_projects/TidyTues_ex.png)
+![](img_side_projects/TidyTues_ex.png){width=500px}
 
 ## Quantitative turn in linguistics
 Coming soon

@@ -1,16 +1,15 @@
-
----
-title: "R-Ladies Freiburg"
----
-
 <font size = 4><center>
 
-![](social_icons/r_ladies.png){width=300px}
+![](social_icons/r_ladies.png){width=200px}
 
-Since May 2020, I have been a co-organizer of R-Ladies Freiburg, together with [Divya Seernani](https://twitter.com/dseernani) and [Elisa Schneider](https://twitter.com/Ichisa5).
+R-Ladies is a worldwide initiative for women in statistics and programming. Since May 2020, I have been a co-organizer of the Freiburg branch, and I teach regular workshops for the group. Past topics I've taught include ["Text Processing with R"](https://www.meetup.com/rladies-freiburg/events/271449817/) and ["Sentiment Analysis with R"](https://www.meetup.com/rladies-freiburg/events/273638515/).
 
-We generally meet twice monthly: on the first Wednesday of each month for a two-hour tutorial Meetup and on the Tuesday two weeks later to code Tidy Tuesday together. 
+We generally meet twice monthly: on the first Wednesday of each month for a two-hour tutorial Meetup and on the Tuesday two weeks later to code Tidy Tuesday together. Starting in January 2021, I'll be designing and hosting a monthly beginner's session for new users.
 
-To find out about our upcoming events, check out our [Meetup page](https://www.meetup.com/rladies-freiburg/) and follow us on [Twitter](https://twitter.com/RLadiesFreiburg).
+To find out about our upcoming events, check us out on [Meetup](https://www.meetup.com/rladies-freiburg/) and follow us on [Twitter](https://twitter.com/RLadiesFreiburg). New members are always welcome!
+
+Our meetings are also often recorded on Youtube.
+
+![](img/r_ladies_table.jpg){width=350px}
 
 </center></font>

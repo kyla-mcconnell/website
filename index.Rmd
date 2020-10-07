@@ -12,8 +12,6 @@ Ph.D. student in Linguistics at the [University of Freiburg](https://www.anglist
 
 Interests: Statistical data analysis with R, data science and general programming with Python, open & reproducible science, big data & human language comprehension, statistical education especially for women and underrepresented groups.
 
-Also in Freiburg? Stop by our [Statistics Study Group for Linguists](https://www.hpsl-linguistics.org/events/statistics-study-group-for-linguists7/)!
-
 [![](researchgate.png)](https://www.researchgate.net/profile/Kyla_Mcconnell2) 
 [![](github.png)](https://github.com/kyla-mcconnell) 
 [![](googlescholar.png)](https://scholar.google.de/citations?user=bnSDcmQAAAAJ&hl=de&oi=ao) 
