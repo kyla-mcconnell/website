@@ -8,13 +8,9 @@ title: "Kyla McConnell"
 <br>
 <br>
 
-Ph.D. student in Linguistics at the University of Freiburg's [English Department](https://www.anglistik.uni-freiburg.de) doing quantitative psycholinguistic research on [individual differences in language processing](https://www.hpsl-linguistics.org/user/648/) and how big data can inform our understanding of real-time language processing.
+Ph.D. student in Linguistics at the [University of Freiburg](https://www.anglistik.uni-freiburg.de) doing quantitative psycholinguistic research on [individual differences in language processing](https://www.hpsl-linguistics.org/user/648/) and how big data can inform our understanding of real-time language processing.
 
 Interests: Statistical data analysis with R, data science and general programming with Python, open & reproducible science, big data & human language comprehension, statistical education especially for women and underrepresented groups.
-
-Member of the [Hermann Paul School of Linguistics](http://www.hpsl-linguistics.org).
-
-Read more about my work: ["Effects of task and corpus-derived association scores on the online processing of collocations"](https://www.degruyter.com/view/j/cllt.ahead-of-print/cllt-2018-0030/cllt-2018-0030.xml) or check out the [poster version.](https://www.researchgate.net/publication/335991813_Can_corpus-derived_collocation_measures_reflect_expectations_in_language_processing)
 
 Also in Freiburg? Stop by our [Statistics Study Group for Linguists](https://www.hpsl-linguistics.org/events/statistics-study-group-for-linguists7/)!
 
